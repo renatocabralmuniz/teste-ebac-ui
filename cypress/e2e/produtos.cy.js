@@ -37,11 +37,11 @@ describe("Funcionalidade Página de produtos", () => {
 
 });
 
-it.only('Deve adicionar produto ao carrinho - Usando comando customizado', () => {
+it ('Deve adicionar produto ao carrinho - Usando comando customizado', () => {
   cy.addProdutos('Abominable Hoodie', 'XL', 'Red', 3)
 });
 
-it.only('Deve adicionar produto ao carrinho - Usando comando customizado', () => {
+it ('Deve adicionar produto ao carrinho - Usando comando customizado', () => {
   cy.addProdutos('Ariel Roll Sleeve Sweatshirt', 'S', 'Purple', 5)
 });
 

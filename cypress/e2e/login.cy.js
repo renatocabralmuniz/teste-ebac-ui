@@ -59,7 +59,7 @@ context('Funcionalidade Login', () => {
         cy.get('#password').type(senhaFaker)
         cy.get('.woocommerce-form > .button').click()
 
-        cy.get('.woocommerce-error').should('contain', 'Erro: a senha fornecida para o e-mail aluno_ebac@teste.com está incorreta. Perdeu a senha?')
+        cy.get('.woocommerce-error').should('contain', 'Erro: a senha fornecida para o e-mail aluno_ebac@teste.com está incorreta. Perdeu a senha')
     })
 
 })
