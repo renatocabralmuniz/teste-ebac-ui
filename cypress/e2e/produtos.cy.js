@@ -20,7 +20,7 @@ describe("Funcionalidade Página de produtos", () => {
     .click();
   });
 
-  it.only('Deve adicionar o produto ao carrinho', () => {
+  it('Deve adicionar o produto ao carrinho', () => {
     let quantidade = 10
 
     cy.get('[class="product-block grid"]')
@@ -35,6 +35,14 @@ describe("Funcionalidade Página de produtos", () => {
     cy.get('.dropdown-toggle > .text-skin > .icon-basket').click()
     cy.get('#cart > .dropdown-menu > .widget_shopping_cart_content > .mini_cart_content > .mini_cart_inner > .mcart-border > .buttons > .view-cart').click()
 
+});
+
+it.only('Deve adicionar produto ao carrinho - Usando comando customizado', () => {
+  cy.addProdutos('Abominable Hoodie', 'XL', 'Red', 3)
+});
+
+it.only('Deve adicionar produto ao carrinho - Usando comando customizado', () => {
+  cy.addProdutos('Ariel Roll Sleeve Sweatshirt', 'S', 'Purple', 5)
 });
 
 });
