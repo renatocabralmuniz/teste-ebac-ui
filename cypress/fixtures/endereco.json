@@ -1,0 +1,39 @@
+[
+    {
+        "nome": "Ana",
+        "sobrenome": "Lucia",
+        "empresa": "EBAC",
+        "endereco": "Amaral Peixoto",
+        "numero": "500",
+        "pais": "Brasil",
+        "estado": "Rio de Janeiro",
+        "cidade": "Niterói",
+        "cep": "24425010"
+
+
+    },
+    {
+        "nome": "Bernardo",
+        "sobrenome": "Ramos",
+        "empresa": "Mihoyo",
+        "endereco": "Rua Santa Rosa",
+        "numero": "352",
+        "pais": "Brasil",
+        "estado": "Mato Grosso",
+        "cidade": "Cuiabá",
+        "cep": "22307010"
+
+    },
+    {
+        "nome": "Amanda",
+        "sobrenome": "Perez",
+        "empresa": "Facebook",
+        "endereco": "Avenida Presidente Vargas",
+        "numero": "110",
+        "pais": "Brasil",
+        "estado": "Rio de Janeiro",
+        "cidade": "Rio de Janeiro",
+        "cep": "24425010"
+
+    }
+]
