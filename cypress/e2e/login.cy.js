@@ -21,7 +21,7 @@ context('Funcionalidade Login', () => {
         cy.get('.woocommerce-form > .button').click()
 
         cy.get('.page-title').should('contain', 'Minha conta')
-        cy.get('.woocommerce-MyAccount-content > :nth-child(2)').should('contain', 'Olá, Aluno (não é Aluno? Sair)')
+        cy.get('.woocommerce-MyAccount-content > :nth-child(2)').should('contain', 'Olá, aluno_ebac20 (não é aluno_ebac20? Sair)')
     })
 
     it ('Deve fazer login com sucesso - Usanso arquivo de dados',  () => {
@@ -30,7 +30,7 @@ context('Funcionalidade Login', () => {
         cy.get('.woocommerce-form > .button').click()
 
         cy.get('.page-title').should('contain', 'Minha conta')
-        cy.get('.woocommerce-MyAccount-content > :nth-child(2)').should('contain', 'Olá, Aluno (não é Aluno? Sair)')
+        cy.get('.woocommerce-MyAccount-content > :nth-child(2)').should('contain',  'Olá, aluno_ebac20 (não é aluno_ebac20? Sair)')
     })
 
     it ('Deve fazer login com sucesso - Usanso fixture',  () => {
@@ -40,7 +40,7 @@ context('Funcionalidade Login', () => {
             cy.get('.woocommerce-form > .button').click()
 
             cy.get('.page-title').should('contain', 'Minha conta')
-            cy.get('.woocommerce-MyAccount-content > :nth-child(2)').should('contain', 'Olá, Aluno (não é Aluno? Sair)')
+            cy.get('.woocommerce-MyAccount-content > :nth-child(2)').should('contain', 'Olá, aluno_ebac20 (não é aluno_ebac20? Sair)')
    
 
         })
@@ -59,7 +59,7 @@ context('Funcionalidade Login', () => {
         cy.get('#password').type(senhaFaker)
         cy.get('.woocommerce-form > .button').click()
 
-        cy.get('.woocommerce-error').should('contain', 'Erro: a senha fornecida para o e-mail aluno_ebac@teste.com está incorreta. Perdeu a senha')
+        cy.get('.woocommerce-error').should('contain', 'Erro: a senha fornecida para o e-mail aluno_ebac@teste.com está incorreta. Perdeu a senha?')
     })
 
 })
