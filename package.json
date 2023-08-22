@@ -8,7 +8,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run": "npx cypress run --browser chrome",
+    "cy:open": "npx cypress open --browser chrome",
+    "cy:report": "npx cypress run --record --key 74d1a232-c74d-444c-ad45-1b9bb06f7718"
   },
   "keywords": [],
   "author": "",
